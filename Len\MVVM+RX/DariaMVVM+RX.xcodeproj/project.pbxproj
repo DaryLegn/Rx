@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20C7A44899C50778C82CB5A4 /* libPods-DariaMVVM+RX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F72D186DC182A78EB30E384A /* libPods-DariaMVVM+RX.a */; };
+		92DEE0F828CB89960048AC70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DEE0F728CB89960048AC70 /* AppDelegate.swift */; };
+		92DEE0FA28CB89960048AC70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DEE0F928CB89960048AC70 /* SceneDelegate.swift */; };
+		92DEE0FC28CB89960048AC70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DEE0FB28CB89960048AC70 /* ViewController.swift */; };
+		92DEE0FF28CB89960048AC70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DEE0FD28CB89960048AC70 /* Main.storyboard */; };
+		92DEE10128CB899B0048AC70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DEE10028CB899B0048AC70 /* Assets.xcassets */; };
+		92DEE10428CB899B0048AC70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DEE10228CB899B0048AC70 /* LaunchScreen.storyboard */; };
+		92DEE10F28CB899C0048AC70 /* DariaMVVM_RXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DEE10E28CB899C0048AC70 /* DariaMVVM_RXTests.swift */; };
+		92DEE11928CB899C0048AC70 /* DariaMVVM_RXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DEE11828CB899C0048AC70 /* DariaMVVM_RXUITests.swift */; };
+		92DEE11B28CB899C0048AC70 /* DariaMVVM_RXUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DEE11A28CB899C0048AC70 /* DariaMVVM_RXUITestsLaunchTests.swift */; };
+		92DEE12D28CB8AA00048AC70 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DEE12C28CB8AA00048AC70 /* Model.swift */; };
+		92DEE12F28CB9D690048AC70 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DEE12E28CB9D690048AC70 /* ViewModel.swift */; };
+		92DEE13728CF63330048AC70 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DEE13528CF63330048AC70 /* TableViewCell.swift */; };
+		92DEE13828CF63330048AC70 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92DEE13628CF63330048AC70 /* TableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92DEE10B28CB899C0048AC70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92DEE0EC28CB89950048AC70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92DEE0F328CB89960048AC70;
+			remoteInfo = "DariaMVVM+RX";
+		};
+		92DEE11528CB899C0048AC70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92DEE0EC28CB89950048AC70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92DEE0F328CB89960048AC70;
+			remoteInfo = "DariaMVVM+RX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		265E8E36CD406E3E54B0B05D /* Pods-DariaMVVM+RX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DariaMVVM+RX.debug.xcconfig"; path = "Target Support Files/Pods-DariaMVVM+RX/Pods-DariaMVVM+RX.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCA4DED28BAED6C65F915C5 /* Pods-DariaMVVM+RX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DariaMVVM+RX.release.xcconfig"; path = "Target Support Files/Pods-DariaMVVM+RX/Pods-DariaMVVM+RX.release.xcconfig"; sourceTree = "<group>"; };
+		92DEE0F428CB89960048AC70 /* DariaMVVM+RX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DariaMVVM+RX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DEE0F728CB89960048AC70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92DEE0F928CB89960048AC70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		92DEE0FB28CB89960048AC70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92DEE0FE28CB89960048AC70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92DEE10028CB899B0048AC70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92DEE10328CB899B0048AC70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92DEE10528CB899B0048AC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DEE10A28CB899C0048AC70 /* DariaMVVM+RXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DariaMVVM+RXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DEE10E28CB899C0048AC70 /* DariaMVVM_RXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DariaMVVM_RXTests.swift; sourceTree = "<group>"; };
+		92DEE11428CB899C0048AC70 /* DariaMVVM+RXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DariaMVVM+RXUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DEE11828CB899C0048AC70 /* DariaMVVM_RXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DariaMVVM_RXUITests.swift; sourceTree = "<group>"; };
+		92DEE11A28CB899C0048AC70 /* DariaMVVM_RXUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DariaMVVM_RXUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92DEE12C28CB8AA00048AC70 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		92DEE12E28CB9D690048AC70 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		92DEE13528CF63330048AC70 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		92DEE13628CF63330048AC70 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		F72D186DC182A78EB30E384A /* libPods-DariaMVVM+RX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DariaMVVM+RX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92DEE0F128CB89960048AC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C7A44899C50778C82CB5A4 /* libPods-DariaMVVM+RX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DEE10728CB899C0048AC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DEE11128CB899C0048AC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A9A79986003E362C5BC4FE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				265E8E36CD406E3E54B0B05D /* Pods-DariaMVVM+RX.debug.xcconfig */,
+				5DCA4DED28BAED6C65F915C5 /* Pods-DariaMVVM+RX.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		89EA13FB2BF1C56C02E23111 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F72D186DC182A78EB30E384A /* libPods-DariaMVVM+RX.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92DEE0EB28CB89950048AC70 = {
+			isa = PBXGroup;
+			children = (
+				92DEE0F628CB89960048AC70 /* DariaMVVM+RX */,
+				92DEE10D28CB899C0048AC70 /* DariaMVVM+RXTests */,
+				92DEE11728CB899C0048AC70 /* DariaMVVM+RXUITests */,
+				92DEE0F528CB89960048AC70 /* Products */,
+				0A9A79986003E362C5BC4FE4 /* Pods */,
+				89EA13FB2BF1C56C02E23111 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92DEE0F528CB89960048AC70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92DEE0F428CB89960048AC70 /* DariaMVVM+RX.app */,
+				92DEE10A28CB899C0048AC70 /* DariaMVVM+RXTests.xctest */,
+				92DEE11428CB899C0048AC70 /* DariaMVVM+RXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92DEE0F628CB89960048AC70 /* DariaMVVM+RX */ = {
+			isa = PBXGroup;
+			children = (
+				92DEE13428CBA29B0048AC70 /* Support files */,
+				92DEE12828CB8A120048AC70 /* Main */,
+				92DEE12728CB89F50048AC70 /* Resources */,
+				92DEE0F728CB89960048AC70 /* AppDelegate.swift */,
+				92DEE10528CB899B0048AC70 /* Info.plist */,
+			);
+			path = "DariaMVVM+RX";
+			sourceTree = "<group>";
+		};
+		92DEE10D28CB899C0048AC70 /* DariaMVVM+RXTests */ = {
+			isa = PBXGroup;
+			children = (
+				92DEE10E28CB899C0048AC70 /* DariaMVVM_RXTests.swift */,
+			);
+			path = "DariaMVVM+RXTests";
+			sourceTree = "<group>";
+		};
+		92DEE11728CB899C0048AC70 /* DariaMVVM+RXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92DEE11828CB899C0048AC70 /* DariaMVVM_RXUITests.swift */,
+				92DEE11A28CB899C0048AC70 /* DariaMVVM_RXUITestsLaunchTests.swift */,
+			);
+			path = "DariaMVVM+RXUITests";
+			sourceTree = "<group>";
+		};
+		92DEE12728CB89F50048AC70 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92DEE10028CB899B0048AC70 /* Assets.xcassets */,
+				92DEE10228CB899B0048AC70 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		92DEE12828CB8A120048AC70 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				92DEE12B28CB8A730048AC70 /* Model */,
+				92DEE12928CB8A1C0048AC70 /* View */,
+				92DEE12A28CB8A570048AC70 /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		92DEE12928CB8A1C0048AC70 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92DEE0FB28CB89960048AC70 /* ViewController.swift */,
+				92DEE0FD28CB89960048AC70 /* Main.storyboard */,
+				92DEE13528CF63330048AC70 /* TableViewCell.swift */,
+				92DEE13628CF63330048AC70 /* TableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92DEE12A28CB8A570048AC70 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				92DEE12E28CB9D690048AC70 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		92DEE12B28CB8A730048AC70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92DEE12C28CB8AA00048AC70 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92DEE13428CBA29B0048AC70 /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				92DEE0F928CB89960048AC70 /* SceneDelegate.swift */,
+			);
+			path = "Support files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92DEE0F328CB89960048AC70 /* DariaMVVM+RX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DEE11E28CB899C0048AC70 /* Build configuration list for PBXNativeTarget "DariaMVVM+RX" */;
+			buildPhases = (
+				DD05532673DE35AF6E88512D /* [CP] Check Pods Manifest.lock */,
+				92DEE0F028CB89960048AC70 /* Sources */,
+				92DEE0F128CB89960048AC70 /* Frameworks */,
+				92DEE0F228CB89960048AC70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DariaMVVM+RX";
+			productName = "DariaMVVM+RX";
+			productReference = 92DEE0F428CB89960048AC70 /* DariaMVVM+RX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92DEE10928CB899C0048AC70 /* DariaMVVM+RXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DEE12128CB899C0048AC70 /* Build configuration list for PBXNativeTarget "DariaMVVM+RXTests" */;
+			buildPhases = (
+				92DEE10628CB899C0048AC70 /* Sources */,
+				92DEE10728CB899C0048AC70 /* Frameworks */,
+				92DEE10828CB899C0048AC70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92DEE10C28CB899C0048AC70 /* PBXTargetDependency */,
+			);
+			name = "DariaMVVM+RXTests";
+			productName = "DariaMVVM+RXTests";
+			productReference = 92DEE10A28CB899C0048AC70 /* DariaMVVM+RXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92DEE11328CB899C0048AC70 /* DariaMVVM+RXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DEE12428CB899C0048AC70 /* Build configuration list for PBXNativeTarget "DariaMVVM+RXUITests" */;
+			buildPhases = (
+				92DEE11028CB899C0048AC70 /* Sources */,
+				92DEE11128CB899C0048AC70 /* Frameworks */,
+				92DEE11228CB899C0048AC70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92DEE11628CB899C0048AC70 /* PBXTargetDependency */,
+			);
+			name = "DariaMVVM+RXUITests";
+			productName = "DariaMVVM+RXUITests";
+			productReference = 92DEE11428CB899C0048AC70 /* DariaMVVM+RXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92DEE0EC28CB89950048AC70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					92DEE0F328CB89960048AC70 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					92DEE10928CB899C0048AC70 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 92DEE0F328CB89960048AC70;
+					};
+					92DEE11328CB899C0048AC70 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 92DEE0F328CB89960048AC70;
+					};
+				};
+			};
+			buildConfigurationList = 92DEE0EF28CB89950048AC70 /* Build configuration list for PBXProject "DariaMVVM+RX" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92DEE0EB28CB89950048AC70;
+			productRefGroup = 92DEE0F528CB89960048AC70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92DEE0F328CB89960048AC70 /* DariaMVVM+RX */,
+				92DEE10928CB899C0048AC70 /* DariaMVVM+RXTests */,
+				92DEE11328CB899C0048AC70 /* DariaMVVM+RXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92DEE0F228CB89960048AC70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DEE10428CB899B0048AC70 /* LaunchScreen.storyboard in Resources */,
+				92DEE13828CF63330048AC70 /* TableViewCell.xib in Resources */,
+				92DEE10128CB899B0048AC70 /* Assets.xcassets in Resources */,
+				92DEE0FF28CB89960048AC70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DEE10828CB899C0048AC70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DEE11228CB899C0048AC70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD05532673DE35AF6E88512D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DariaMVVM+RX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92DEE0F028CB89960048AC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DEE12F28CB9D690048AC70 /* ViewModel.swift in Sources */,
+				92DEE0FC28CB89960048AC70 /* ViewController.swift in Sources */,
+				92DEE0F828CB89960048AC70 /* AppDelegate.swift in Sources */,
+				92DEE0FA28CB89960048AC70 /* SceneDelegate.swift in Sources */,
+				92DEE13728CF63330048AC70 /* TableViewCell.swift in Sources */,
+				92DEE12D28CB8AA00048AC70 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DEE10628CB899C0048AC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DEE10F28CB899C0048AC70 /* DariaMVVM_RXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DEE11028CB899C0048AC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DEE11B28CB899C0048AC70 /* DariaMVVM_RXUITestsLaunchTests.swift in Sources */,
+				92DEE11928CB899C0048AC70 /* DariaMVVM_RXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92DEE10C28CB899C0048AC70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92DEE0F328CB89960048AC70 /* DariaMVVM+RX */;
+			targetProxy = 92DEE10B28CB899C0048AC70 /* PBXContainerItemProxy */;
+		};
+		92DEE11628CB899C0048AC70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92DEE0F328CB89960048AC70 /* DariaMVVM+RX */;
+			targetProxy = 92DEE11528CB899C0048AC70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92DEE0FD28CB89960048AC70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92DEE0FE28CB89960048AC70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92DEE10228CB899B0048AC70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92DEE10328CB899B0048AC70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92DEE11C28CB899C0048AC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92DEE11D28CB899C0048AC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92DEE11F28CB899C0048AC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 265E8E36CD406E3E54B0B05D /* Pods-DariaMVVM+RX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7K2BJR7HK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DariaMVVM+RX/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "exam.DariaMVVM-RX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92DEE12028CB899C0048AC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DCA4DED28BAED6C65F915C5 /* Pods-DariaMVVM+RX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7K2BJR7HK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DariaMVVM+RX/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "exam.DariaMVVM-RX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92DEE12228CB899C0048AC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7K2BJR7HK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "exam.DariaMVVM-RXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DariaMVVM+RX.app/DariaMVVM+RX";
+			};
+			name = Debug;
+		};
+		92DEE12328CB899C0048AC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7K2BJR7HK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "exam.DariaMVVM-RXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DariaMVVM+RX.app/DariaMVVM+RX";
+			};
+			name = Release;
+		};
+		92DEE12528CB899C0048AC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7K2BJR7HK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "exam.DariaMVVM-RXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DariaMVVM+RX";
+			};
+			name = Debug;
+		};
+		92DEE12628CB899C0048AC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7K2BJR7HK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "exam.DariaMVVM-RXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DariaMVVM+RX";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92DEE0EF28CB89950048AC70 /* Build configuration list for PBXProject "DariaMVVM+RX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DEE11C28CB899C0048AC70 /* Debug */,
+				92DEE11D28CB899C0048AC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DEE11E28CB899C0048AC70 /* Build configuration list for PBXNativeTarget "DariaMVVM+RX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DEE11F28CB899C0048AC70 /* Debug */,
+				92DEE12028CB899C0048AC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DEE12128CB899C0048AC70 /* Build configuration list for PBXNativeTarget "DariaMVVM+RXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DEE12228CB899C0048AC70 /* Debug */,
+				92DEE12328CB899C0048AC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DEE12428CB899C0048AC70 /* Build configuration list for PBXNativeTarget "DariaMVVM+RXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DEE12528CB899C0048AC70 /* Debug */,
+				92DEE12628CB899C0048AC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92DEE0EC28CB89950048AC70 /* Project object */;
+}
